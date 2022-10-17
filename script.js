@@ -261,6 +261,7 @@ window.addEventListener("load", ()=> {
         enemy.playerLose()
         player.playerWin()
         player.evaluar()
+        enemy.evaluar()
         coin.evaluar()
         requestAnimationFrame(gameLoop); 
     }
